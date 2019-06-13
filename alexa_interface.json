@@ -1,0 +1,58 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "grammar nazi",
+            "intents": [
+                {
+                    "name": "Grammar_check",
+                    "slots": [
+                        {
+                            "name": "sentence",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "check {sentence}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+                        "Bye Grammar Nazi",
+                        "Cancel Grammar Nazi"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "Help",
+                        "Help on Grammar Nazi",
+                        "Alexa Help"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "Exit",
+                        "stop Grammar nazi",
+                        "Stop",
+                        "Alexa Stop"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": [
+                        "Quit",
+                        "Naah",
+                        "No"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
